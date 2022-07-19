@@ -1,7 +1,10 @@
 <template>
     <div>
-        <h3>Album List</h3>
-        <AlbumCover/>
+        <div class="row">
+            <div class="col-3">
+                <AlbumCover/>
+            </div>
+        </div>
     </div>
 </template>
 
