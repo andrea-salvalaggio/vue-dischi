@@ -1,10 +1,10 @@
 <template>
-    <div class="card">
+    <div class="card text-white">
         <img :src="album.poster" class="card-img-top" :alt="album.author">
-        <div class="card-body">
-            <h3> {{ album.title }} </h3>
-            <p class="card-text"> {{ album.author }} </p>
-            <p> {{ album.year }} </p>
+        <div class="card-body text-center px-0">
+            <h5 class="text-uppercase fw-bold mb-3"> {{ album.title }} </h5>
+            <p class="card-text m-0"> {{ album.author }} </p>
+            <p class="m-0"> {{ album.year }} </p>
         </div>
     </div>
 </template>
@@ -15,6 +15,14 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+
+    .card{
+        background-color: #2e3a46;
+    }
+
+    p{
+        color: #5a5d62;
+    }
 
 </style>

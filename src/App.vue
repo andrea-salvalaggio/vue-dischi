@@ -22,8 +22,8 @@ export default {
 @import "~bootstrap/scss/bootstrap.scss";
 @import "./styles/variables.scss";
 
-body{
-  background-color: $primaryColor;
-}
+  body{
+    background-color: $primaryColor;
+  }
 
 </style>

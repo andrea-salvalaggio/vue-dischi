@@ -2,8 +2,10 @@
     <header class="d-flex align-items-center">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-2">
-                    <img class="w-25"src="https://upload.wikimedia.org/wikipedia/commons/7/75/Spotify_icon.png" alt="Spotify Logo">
+                <div class="col-12">
+                    <div class="logo-container">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Spotify_icon.png" alt="Spotify Logo">
+                    </div>
                 </div>
             </div>
         </div>
@@ -19,8 +21,19 @@ export default {
 <style lang="scss">
 
     header{
-        height: 8vh;
+        height: 70px;
         background-color: #2e3a46;
+    }
+
+    .logo-container{
+        width: 50px;
+        height: 50px;
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
     }
 
 </style>

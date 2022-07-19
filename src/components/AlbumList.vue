@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="row">
-            <AlbumCover class="card-container" v-for="album in albums" :key="album.index" :album="album"/>
+            <AlbumCover class="card-container py-3" v-for="album in albums" :key="album.index" :album="album"/>
         </div>
     </div>
 </template>
@@ -43,8 +43,8 @@ export default {
 
 <style lang="scss" scoped>
     .card-container{
-        width: calc((100% / 5) - 20px);
-        margin: 10px
+        width: calc((100% / 5) - 30px);
+        margin: 15px
     }
-    
+
 </style>
